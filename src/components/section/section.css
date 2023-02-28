@@ -1,0 +1,49 @@
+.primary__wrapper__section{
+    background: url(../../constatas/img/beck.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    margin-top: 2px;
+   
+}
+
+.top__wrapper{
+    display: flex;
+    padding: 0 4rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.top__right{
+    width: 480px;
+
+}
+.b__body{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    padding: 0 35px
+}
+
+.b__title{
+    font-size: 28px;
+    font-weight: bold;
+    padding: 30px;
+    color: #ffffff;
+    
+}
+
+/* <-------------------------------> */
+
+
+.botton__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+.bottom__left{
+    width: 480px;
+}

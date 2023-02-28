@@ -1,0 +1,9 @@
+.primary__footer__section{
+    background-image: url(../../constatas/img/footer__section.png);
+    height: 650px;
+}
+
+.botter__top{
+    font-size: 22px;
+    color: white;
+}

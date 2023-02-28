@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background-color: #7854F7;
+    border-radius: 20px;
+  }
+
+  .container{
+    max-width: 1350px;
+    margin: auto;
+    position: relative;
+  }
+
+  .topic__section{
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    color: #272d4e;
+  }
+  .rodius{
+    border-radius: 40px;
+  }
+
+  

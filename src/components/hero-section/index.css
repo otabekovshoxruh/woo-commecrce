@@ -1,0 +1,38 @@
+.primary__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.hero_bild{
+    font-size: 52px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.primary__wrapper p{
+    margin: 29px 0;
+    color:#94A2B3;
+    font-size: 14px;
+    position: relative;
+}
+.wrapper__left{
+    position: relative;
+    width: 700px;
+    right: -140px;
+    
+}
+
+
+
+@media screen and (max-width:950px) {
+    .primary__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    } 
+    .wrapper__left{
+       display: none;
+    }
+}
+
