@@ -5,10 +5,13 @@ import style from "../../style";
 
 export default function App() {
   return (
-    <div>
-      <div className={`${style.heroColor}`}>
-        <Header />
-        <HeroSection />
+    <div >
+      <div className={`${style.heroColor} `}>
+        <div className="primary__bg box__wrapper">
+          <Header />
+           <HeroSection />
+        </div>
+        
       </div>
         <Main />
     </div>

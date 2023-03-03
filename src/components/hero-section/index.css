@@ -1,26 +1,32 @@
 .primary__wrapper{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-end;
+   
+    align-items: center;
 
 }
 
 .hero_bild{
-    font-size: 52px;
+    font-size: 62px;
     font-weight: bold;
-    letter-spacing: 3px;
+      
 }
 
 .primary__wrapper p{
-    margin: 29px 0;
+    margin: 10px 0;
     color:#94A2B3;
     font-size: 14px;
     position: relative;
 }
+.wrapper__right{
+    height: 550px;
+    width:690px;
+
+}
 .wrapper__left{
     position: relative;
-    width: 700px;
-    right: -140px;
+    width: 670px;
+    
     
 }
 

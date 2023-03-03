@@ -7,6 +7,7 @@
 
 .fta__card{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 

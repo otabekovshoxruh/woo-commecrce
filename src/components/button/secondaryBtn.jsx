@@ -1,8 +1,16 @@
-export default function secondaryBtn({ onClick, children, ...props }) {
-    return (
-      <button onClick={onClick} {...props} className="border-rose-600 rounded text-white bg-[#7854F7] tracking-wide duration-300 py-5 px-10 shadow-2xl hover:bg-blue-700  ">
-        {children}
-      </button>
-    );
-  }
-  
+import classNames from "classnames"
+
+export  function Secondary({ 
+  onClick,
+  className,
+  children,
+  ...props 
+}) { const cx = classNames([
+        "border-rose-600 rounded text-white  tracking-wide duration-300 py-2 px-3 shadow-2xl  ", className]);
+       
+   return(
+    <button onClick={onClick} className={cx} {...props} >
+      {children}
+    </button>
+  );
+}

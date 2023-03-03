@@ -1,0 +1,15 @@
+.card__wrapper{
+    width: 580px;
+    height: 300px;
+    border-radius: 20px;
+    font-size: 22px;
+    box-shadow: 1px  0px 10px 1px #e9eefd;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    background-image: url(../../../constatas/img/dot.png);
+   background-repeat: no-repeat;
+    background-position: center 20px;
+    position: relative;
+}
+    

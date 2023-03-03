@@ -6,24 +6,24 @@ import "./index.css";
 const HeroSection = () => (
   <section
     id="sill"
-    className={`flex justify-between  md:flex-row flex-col ${style.paddindY} `}
+    className={`container  md:flex-row flex-col ${style.paddindY} `}
   >
-    <div className="primary__wrapper container">
-      <div className="wrapper__right pt-10">
-        <h1 className="hero_bild">
-          Building exactly the <br /> eCommerce website <br /> you want.
+    <div className="primary__wrapper primary__container">
+      <div className="wrapper__right">
+        <h1 className="hero_bild font-Readex text-[#272D4E]">
+          Building exactly the <br />eCommerce website <br /> you want.
         </h1>
         <p>
           WooCommerce is a customizable, open-source eCommerce platform built on
           WordPress. <br /> Get started quickly and make your way.
         </p>
 
-        <div className="flex justify-between items-center w-[400px]">
-          <PrimaryBtn className="px-4 py-5 rodius">
+        <div className="flex justify-between items-center w-[380px]">
+          <PrimaryBtn className="px-8 py-4  rounded-full font-Roboto ">
             Start a New Store
           </PrimaryBtn>
            <span className="opacity-25">or</span>
-           <a href="extend" className="text-blue-500 font-normal"> Customize & Extend</a>
+           <a href="extend" className="text-[#299EF3] font-Roboto font-medium"> Customize & Extend  › </a>
         </div>
       </div>
       <div className="wrapper__left ">

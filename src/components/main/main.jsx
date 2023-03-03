@@ -4,7 +4,7 @@ import { FeatureSection, Section, TyestimonialsSection, CtaSection,  PeopleSecti
 export default function Main() {
   return (
     <div className={``} >
-      <div className={` `}> 
+      <div className={`box__wrapper`}> 
         <FeatureSection />
         <Section />
         <TyestimonialsSection />

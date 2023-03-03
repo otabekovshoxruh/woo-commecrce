@@ -17,7 +17,7 @@ export default function Cards({imgCard, title, body, btn}) {
                         <p>{body}</p>
                     </div>
                     <div className="card__btn">
-                        <a href={body} className='text-blue-500 font-normal'>{btn}</a>
+                        <a href={body} className='text-[#299EF3] font-Roboto font-medium'>{btn}</a>
                     </div>
                 </div> 
             </div>
